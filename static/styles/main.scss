@@ -1,0 +1,48 @@
+body {
+  font: 25px arial;
+  padding: 3% 20%;
+}
+
+.wrap {
+  margin: 0px auto 0;
+  max-width: 800px;
+}
+
+.question, .answer {
+  height: 100px;
+}
+
+.title {
+  font-size: 17px;
+  color: #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 25px;
+  font-size: 17px;
+}
+
+@media only screen and (max-device-width: 800px) {
+  body { 
+     font: 6vw arial;
+     padding: 10% 10%;
+  }
+
+  .wrap {
+    max-width: none;
+  }
+
+  .question, .answer {
+    height: 40vw;
+  }
+
+  .title {
+    font-size: 4vw;
+  }
+
+  button {
+    font-size: 5vw;
+    padding: 5vw;
+  }
+}
